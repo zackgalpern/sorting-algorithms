@@ -9,20 +9,6 @@
 using namespace std;
 using namespace::chrono;
 
-/*const string r1 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data10000_1.txt";
-const string a1 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data10000_2.txt";
-const string d1 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data10000_3.txt";
-const string r2 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data20000_1.txt";
-const string a2 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data20000_2.txt";
-const string d2 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data20000_3.txt";
-const string r5 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data50000_1.txt";
-const string a5 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data50000_2.txt";
-const string d5 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data50000_3.txt";
-const string r10 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data100000_1.txt";
-const string a10 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data100000_2.txt";
-const string d10 = "/Users/zackgalpern/Desktop/Data Structures Projects/SortingAnalysis/data100000_3.txt";
-*/
-
 void readFile(ifstream& file, int array[], int size) {
     int count = 0;
     int x;
